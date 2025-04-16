@@ -1,0 +1,9 @@
+version: 5.3.8
+steps:
+  - step:
+      command: run
+      file: testdriver/login.yml
+  - prompt: Click on "Recently created apps" section.
+  - prompt: Assert that the list of apps is displayed.
+  - prompt: Click on an app name to view details.
+  - prompt: Assert that app details are displayed correctly.

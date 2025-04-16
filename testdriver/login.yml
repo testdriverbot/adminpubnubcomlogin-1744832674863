@@ -1,0 +1,21 @@
+version: 5.3.8
+session: 680009c971169f8f04685892
+steps:
+  - prompt: login with username "nicolis.miller@pubnub.com" and password "Nicolis33!"
+    commands:
+      - command: hover-text
+        text: Email address
+        description: email input field
+        action: click
+      - command: type
+        text: nicolis.miller@pubnub.com
+      - command: hover-text
+        text: Password
+        description: password input field
+        action: click
+      - command: type
+        text: Nicolis33!
+      - command: hover-text
+        text: LOG IN
+        description: login button
+        action: click
