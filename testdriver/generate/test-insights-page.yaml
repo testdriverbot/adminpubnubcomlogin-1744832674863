@@ -1,0 +1,9 @@
+version: 5.3.8
+steps:
+  - step:
+      command: run
+      file: testdriver/login.yml
+  - prompt: Click on "Insights" in the main menu.
+  - prompt: Assert that the insights page loads successfully.
+  - prompt: Review key metrics displayed.
+  - prompt: Assert that data appears accurate and up-to-date.
